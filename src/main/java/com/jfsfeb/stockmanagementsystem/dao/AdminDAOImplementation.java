@@ -128,7 +128,7 @@ public class AdminDAOImplementation implements AdminDAO {
 			}
 
 		} else
-			throw new StockManagementSystemExceptions(" Can't be accepted due to invalid");
+			throw new StockManagementSystemExceptions(" Can't be accepted due to invalid request");
 	}
 
 	@Override
